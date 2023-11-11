@@ -4,8 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WeatherApp</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot loc"></i>
+            <input type="text" id="search-input" placeholder="Enter a Location">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="weather-details1">
+            <img src="./assets/sun.png">
+            <p class="temp"><strong>25<span class="degree">&deg;</span>C</strong></p>
+            <p class="info">clear sky</p>
+        </div>
+        <div class="weather-details2">
+            <div class="humidity">
+                <i class="fa-solid fa-droplet"></i>
+                <span>Humidity</span>
+            </div>
+            <div class="pressure">
+                <i class="fa-solid fa-water"></i>
+                <span>Pressure</span>
+            </div>
+            <div class="speed">
+                <i class="fa-solid fa-wind"></i>
+                <span>Wind Speed</span>
+            </div>
+            <div class="feel">
+                <i class="fa-solid fa-temperature-half"></i>
+                <span>Real feel</span>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/96be32af31.js" crossorigin="anonymous"></script>
 </body>
 </html>
