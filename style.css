@@ -66,11 +66,22 @@ img{
 .info{
     font-size: larger;
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .weather-details2{
     display: grid;
     gap: 15px;
-    
+    margin-left: 60px;
     grid-template: 1fr 1fr / 1fr 1fr;
+}
+.flex{
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex p{
+    margin-left: 10px;
 }
