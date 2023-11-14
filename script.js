@@ -63,6 +63,9 @@ SearchButton.addEventListener("click", () => {
                 case `Smoke`:
                     img.src = "./assets/smoke.png"
                     break;
+                case `Fog`:
+                    img.src = "./assets/smoke.png"
+                    break;
 
                 default:
                     img.src = "./assets/cloudSun.png"
@@ -80,7 +83,7 @@ SearchButton.addEventListener("click", () => {
             setTimeout(() => {
                 d.style.display = "grid";
             }, 400);
-            // console.log(`${json.weather[0].main}`);
+            console.log(`${json.weather[0].main}`);
         });
 
 });
