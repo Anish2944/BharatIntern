@@ -51,6 +51,9 @@ SearchButton.addEventListener("click", () => {
                 case `Snow`:
                     img.src = "./assets/snow.png";
                     break;
+                case `Mist`:
+                    img.src = "./assets/sunwind.png";
+                    break;
                 case `Haze`:
                     img.src = "./assets/wind.png";
                     break;
