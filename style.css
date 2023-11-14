@@ -119,18 +119,19 @@ img{
 
 @media screen and (max-width: 768px) {
     .container {
-        width: 80%; /* Adjust the width for smaller screens */
+        width: 80%; 
     }
 
     .search-box {
-        padding: 10px; /* Adjust padding for smaller screens */
+        padding: 10px;
+        padding-left: 15px; 
     }
 
     img {
-        width: 60%; /* Adjust image width for smaller screens */
+        width: 60%; 
     }
 
     .weather-details2 {
-        margin-left: 0; /* Remove left margin for smaller screens */
+        margin-left: 0; 
     }
 }
