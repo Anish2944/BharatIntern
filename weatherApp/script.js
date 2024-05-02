@@ -73,7 +73,7 @@ SearchButton.addEventListener("click", () => {
             }
 
             info.innerHTML = `${json.weather[0].description}`
-            temp.innerHTML = `${json.main.temp}<span class="degree">&deg;c</span>`;
+            temp.innerHTML = `${Math.round(json.main.temp)}<span class="degree">&deg;c</span>`;
             humidity.innerHTML = `${json.main.humidity}% Humidity`;
             pressure.innerHTML = `${json.main.pressure}mbar Pressure`;
             feel.innerHTML = `${json.main.feels_like}&deg;c Feel`;
